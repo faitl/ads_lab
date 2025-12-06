@@ -36,7 +36,7 @@ private:
     }
 
 
-};
+
 public:
     LinkedList() : head_(nullptr) {}
     ~LinkedList() { clear(); }
@@ -75,7 +75,7 @@ public:
         }
         return s;
     }
-
+};
 
 
 
